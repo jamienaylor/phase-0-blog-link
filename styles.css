@@ -1,0 +1,52 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif ;
+    height: auto;
+    min-height: 100%;   
+}
+
+  body {
+    background: url(./Images/background.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.5em;
+    padding: 10%;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 2.5em;
+    color: #964b00
+    }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.0em;  
+  }
+
+    .footer {
+        
+        bottom: 0;
+        align-self: center;
+        margin: 0 auto;
+        margin-left: -5%;
+        width: 110%;
+        height:100px; 
+        background:#212b2f;
+        line-height: 100px;
+        /*vertical-align: middle;*/
+        text-align: center;
+        font-size: 0.5em;
+        color: burlywood;
+    }
+
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+        background: #fff;
+        padding: 5% 5% 0% 5%;
+        text-align: center;
+    }
